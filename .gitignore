@@ -1,0 +1,81 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+ProntosParaPostar/
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest
+.pytest_cache/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Input assets and source files
+# Keep actual input folders tracked, but ignore generated outputs inside them.
+# The generated voice outputs below are still ignored.
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs, temp and caches
+*.log
+temp/
+tmp/
+.cache/
+/templates
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local environment / secrets
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+
+# Generated project outputs (ignore by default; remove if you want to version projects)
+/projects/
+/Postados/
+/estado_lente.json
+/lote_agendado.json
+/log_noturno.txt
+
+# Roteiros, provavelmente descontinuado
+/roteiros/
+/inputs/
+
+# Generated audio/video and large media caches
+models/
+
+# ffmpeg binaries are not tracked in this repo
+ffmpeg.exe
+ffprobe.exe
+ffplay.exe
+
+*.bat
+
+# Misc
+__pycache__/
+
+gerar_roteiros_lote.py
+gerar_hexagramas.py
+produzir_videos_lote.py
+publicar_escolhido.py
+template_semana.json
